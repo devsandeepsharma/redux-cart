@@ -22,6 +22,7 @@ header .btn-primary {
     animation: .6s ease-in-out all;
 }
 
-header .btn-primary:hover {
+header .btn-primary:hover, 
+header .btn-primary:active {
     transform: scale(.95);
 }

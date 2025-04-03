@@ -40,6 +40,12 @@
     border: 0;
     border-radius: 6px;
     text-align: center;
+    cursor: pointer;
+}
+
+.item_btn:hover,
+.item_btn:active {
+    transform: scale(.95);
 }
 
 li {
@@ -52,4 +58,8 @@ li {
     align-items: center;
     gap: 16px;
     margin: 6px 0;
+}
+
+.text {
+    margin-top: 16px;
 }

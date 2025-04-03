@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 
 import Cart from "./components/Cart/Cart";
 import Header from "./components/Layout/Header";
+import Products from "./components/Products/Products";
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <Header />
       {isOpen && <Cart />}
+      <Products />
     </>
   )
 }
