@@ -41,6 +41,9 @@ const cartSlice = createSlice({
                 }
                 state.items = updatedItems;
             }
+        },
+        replaceCart(state, actions) {
+            state.items = actions.payload;
         }
     }
 })
