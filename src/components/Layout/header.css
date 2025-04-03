@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    padding: 16px 64px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7692FF;
+    color: #091540;
+}
+
+header .btn-primary {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #091540;
+    color: #7692FF;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    animation: .6s ease-in-out all;
+}
+
+header .btn-primary:hover {
+    transform: scale(.95);
+}
