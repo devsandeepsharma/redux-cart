@@ -1,0 +1,29 @@
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 64px;
+}
+
+.notification button {
+    background-color: inherit;
+    border: 1px solid inherit;
+    border-radius: 8px;
+    padding: 6px 16px;
+    color: inherit;
+}
+
+.pending {
+    background-color: rgb(36, 36, 219);
+    color: white;
+}
+
+.success {
+    background-color: green;
+    color: white;
+}
+
+.failed {
+    background-color: red;
+    color: white;
+}
