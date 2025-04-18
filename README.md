@@ -49,3 +49,8 @@ In this project, we integrate Redux with Firebase to manage the cart state. The 
 * Fetching Cart Data: When the app is loaded, the cart data is fetched from Firebase and placed into the Redux store, replacing the current cart.
 
 * Sending Cart Data: On any cart change, the entire cart data is replaced in Firebase, ensuring that it reflects the latest state.
+
+## Preview
+
+<img src="./public/1.png" />
+<img src="./public/2.png" />
