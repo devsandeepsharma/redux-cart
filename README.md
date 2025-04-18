@@ -24,7 +24,7 @@ This project helped me gain a better understanding of the following concepts:
 
 * **React Hooks:** Leveraging `useState`, `useEffect`, and `useRef` for managing UI state and side effects.
 
-*** Firebase Real-Time Database:** Storing and retrieving data in real-time with Firebase. Understanding the real-time nature of Firebase for live synchronization of data across all users.
+* **Firebase Real-Time Database:** Storing and retrieving data in real-time with Firebase. Understanding the real-time nature of Firebase for live synchronization of data across all users.
 
 * **Async Operations in React:** How to handle asynchronous operations such as fetching data or sending data to Firebase, and managing loading/error states with notifications.
 
